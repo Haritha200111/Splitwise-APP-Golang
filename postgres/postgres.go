@@ -18,9 +18,9 @@ type PostgresRepo struct {
 func Connect() error {
 	var (
 		host     = "localhost"
-		port     = 5432
+		port     = 
 		user     = "postgres"
-		password = "Monday@01"
+		password = ""
 		dbname   = "splitwise"
 	)
 
